@@ -11,6 +11,10 @@
 		2DCD75552927C7C700386739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75542927C7C700386739 /* ContentView.swift */; };
 		2DCD75572927C7C800386739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCD75562927C7C800386739 /* Assets.xcassets */; };
 		2DCD755A2927C7C800386739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCD75592927C7C800386739 /* Preview Assets.xcassets */; };
+		2DCD75622927C7FC00386739 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75612927C7FC00386739 /* EmojiModel.swift */; };
+		2DCD75652927C94500386739 /* EmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75642927C94500386739 /* EmojiListView.swift */; };
+		2DCD75672927CD9500386739 /* EmojiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75662927CD9500386739 /* EmojiDetailView.swift */; };
+		2DCD756A2927E58D00386739 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DCD75692927E58C00386739 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		2DCD75542927C7C700386739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DCD75562927C7C800386739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCD75592927C7C800386739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DCD75612927C7FC00386739 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		2DCD75642927C94500386739 /* EmojiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListView.swift; sourceTree = "<group>"; };
+		2DCD75662927CD9500386739 /* EmojiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailView.swift; sourceTree = "<group>"; };
+		2DCD75682927E57600386739 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DCD75692927E58C00386739 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,8 @@
 		2DCD75462927C7C700386739 = {
 			isa = PBXGroup;
 			children = (
+				2DCD75692927E58C00386739 /* demo.gif */,
+				2DCD75682927E57600386739 /* README.md */,
 				2DCD75512927C7C700386739 /* EmojiFinder */,
 				2DCD75502927C7C700386739 /* Products */,
 			);
@@ -51,6 +62,8 @@
 		2DCD75512927C7C700386739 /* EmojiFinder */ = {
 			isa = PBXGroup;
 			children = (
+				2DCD75632927C92C00386739 /* View */,
+				2DCD75602927C7D000386739 /* Model */,
 				2DCD75522927C7C700386739 /* EmojiFinderApp.swift */,
 				2DCD75542927C7C700386739 /* ContentView.swift */,
 				2DCD75562927C7C800386739 /* Assets.xcassets */,
@@ -65,6 +78,23 @@
 				2DCD75592927C7C800386739 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DCD75602927C7D000386739 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DCD75612927C7FC00386739 /* EmojiModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DCD75632927C92C00386739 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DCD75642927C94500386739 /* EmojiListView.swift */,
+				2DCD75662927CD9500386739 /* EmojiDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCD755A2927C7C800386739 /* Preview Assets.xcassets in Resources */,
+				2DCD756A2927E58D00386739 /* demo.gif in Resources */,
 				2DCD75572927C7C800386739 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCD75552927C7C700386739 /* ContentView.swift in Sources */,
+				2DCD75652927C94500386739 /* EmojiListView.swift in Sources */,
+				2DCD75672927CD9500386739 /* EmojiDetailView.swift in Sources */,
 				2DCD75532927C7C700386739 /* EmojiFinderApp.swift in Sources */,
+				2DCD75622927C7FC00386739 /* EmojiModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
